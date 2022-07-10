@@ -80,10 +80,10 @@ A covering note explaining the technology choices you have made.
 ```
     git bundle create <anything>.bundle --all
 ```
-"""Feature/Begginer Task:-
-GitHub Link:- https://github.com/Chandra314S/cognizant_tech_test_beginner.git
+# Feature/Begginer Task:-
+## GitHub Link:- https://github.com/Chandra314S/cognizant_tech_test_beginner.git
 
-Step1:-
+## Step1:-
 -- Open a command prompt/terminal and use the below mentioned steps.
 -- Verify installation of Anaconda is  succesfull & added to your path, cmd:- "conda -V".
 -- Check Anaconda is up to date, cmd:- "conda update conda".
@@ -95,12 +95,12 @@ Step1:-
 -- Drag & Drop or browse the .csv file in the webpage loaded.
 -- Click Upload button for starting the process of .csv file uploading and returnig(downloading automatically) the processed (performs the required data parsing, appropriate routing) .json file to the local system of the user(system user) loggedin.
 
-Step2:- (Performing UnitTesting)
+## Step2:- (Performing UnitTesting)
 
 -- Two test cases have been included in the Unittests.py file.
 -- Run the unit tests by executing "python Unittests.py", It will show the status of the tests.
 
-Web Technologies Used:-
+## Web Technologies Used:-
 -- Python(Flask web framework).
 -- Bootstrap.
 -- CSS.
