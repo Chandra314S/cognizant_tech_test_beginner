@@ -85,23 +85,37 @@ A covering note explaining the technology choices you have made.
 
 ## Step1:-
 -- Open a command prompt/terminal and use the below mentioned steps.
+
 -- Verify installation of Anaconda is  succesfull & added to your path, cmd:- "conda -V".
+
 -- Check Anaconda is up to date, cmd:- "conda update conda".
+
 -- Creating a Anaconda virtual environment, cmd:- "conda create -n yourenvname python=3.10".
+
 -- Activate your Anaconda virtual environment created using the above command. cmd:- "conda activate yourenvname".
+
 -- Install flask Web framework "pip install flask".
+
 -- Run "python app.py" command to make the application live.
+
 -- Open the browser and browse to the URL shown after the flask application is live. Reference Link:- "http://192.168.1.86:5000".
+
 -- Drag & Drop or browse the .csv file in the webpage loaded.
+
 -- Click Upload button for starting the process of .csv file uploading and returnig(downloading automatically) the processed (performs the required data parsing, appropriate routing) .json file to the local system of the user(system user) loggedin.
 
 ## Step2:- (Performing UnitTesting)
 
 -- Two test cases have been included in the Unittests.py file.
+
 -- Run the unit tests by executing "python Unittests.py", It will show the status of the tests.
 
 ## Web Technologies Used:-
+
 -- Python(Flask web framework).
+
 -- Bootstrap.
+
 -- CSS.
+
 -- html. """
